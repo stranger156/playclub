@@ -60,7 +60,7 @@ class UserProfile(models.Model):
 
     def save(self, *args, **kwargs):
         # 1. 定义正确的base_url（替换成你的服务器公网IP）
-        base_url = "http://192.168.1.16:8000"  # 或服务器公网IP：http://47.xx.xx.xx:8000
+        base_url = "http://123.57.192.20:8000"  # 或服务器公网IP：http://47.xx.xx.xx:8000
         # 2. 获取旧头像（用于删除）
         old_instance = None
         old_avatar = None
