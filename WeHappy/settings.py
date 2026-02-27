@@ -38,12 +38,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'user',
     'order',
     'school',
-    'core'
+    'core',
+    'game',
+    'channels'
 ]
-
+ASGI_APPLICATION = 'WeHappy.asgi.application'
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
@@ -89,16 +92,18 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'playclub',
-        'USER': 'root',
+        'USER': 'root1',
         'PASSWORD': 'cp425680',
         'HOST': 'localhost',
         'PORT': '3306',
     }
 }
 
-
-# Password validation
-# https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "channels.layers.InMemoryChannelLayer",
+    },
+}
 
 AUTH_PASSWORD_VALIDATORS = [
     {

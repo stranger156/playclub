@@ -23,6 +23,7 @@ urlpatterns = [
     path('api/user/', include('user.urls')),  # 用户相关接口
     path('api/order/', include('order.urls')),
     path('api/school/', include('school.urls')),
+    path('api/game/', include('game.urls')),
     # 其他app路由...
 ]
 
