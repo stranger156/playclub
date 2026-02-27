@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f71cf091-df8e-42a0-985a-633e369a3acd" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/consumers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/routing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeHappy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeHappy/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeHappy/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeHappy/asgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeHappy/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeHappy/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeHappy/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeHappy/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/avatars/root/0616e876-46b3-4485-9170-99432d6345af.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +119,7 @@
       <workItem from="1770700588873" duration="24296000" />
       <workItem from="1770910196028" duration="2175000" />
       <workItem from="1771140234760" duration="82890000" />
-      <workItem from="1771852349898" duration="45758000" />
+      <workItem from="1771852349898" duration="46232000" />
     </task>
     <servers />
   </component>
